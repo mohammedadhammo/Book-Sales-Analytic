@@ -133,6 +133,5 @@ This Power BI dashboard provides a comprehensive analysis of the job market in E
 ## 📢 Feedback & Contributions
 Feel free to raise issues, suggest improvements, or contribute enhancements to this project!
 
-### 🔗 **Live Dashboard Preview**: [Power BI Service]([https://app.powerbi.com/view?r=eyJrIjoiMGNjZmFlOWItMWU3My00ZjM4LTlhYjQtMWY5N2QzOGQwMTAyIiwidCI6IjI1Y2UwMjYxLWJiZDYtNDljZC1hMWUyLTU0MjYwODg2ZDE1OSJ9](https://app.powerbi.com/groups/me/reports/fb544a4c-56a3-4379-b51c-bd7320d0a5e4?ctid=f00f2f39-2ff1-431f-aba9-3273f8ad190e&pbi_source=linkShare)
-
+### 🔗 **Live Dashboard Preview**: [Power BI Service](https://app.powerbi.com/groups/me/reports/fb544a4c-56a3-4379-b51c-bd7320d0a5e4/df2eec0219e274e007ab?experience=power-bi)
 ---
