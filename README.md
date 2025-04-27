@@ -1,7 +1,8 @@
-# Job Market Analytics Dashboard
+# Book sales Analytics Dashboard
 
 ## 📌 Overview
-This Power BI dashboard provides a comprehensive analysis of the job market in Egypt, focusing on hiring trends, job role analysis, and company insights. The data was scraped from Wuzzuf using Python and cleaned using advanced Power BI techniques.
+This Power BI dashboard provides an in-depth analysis of book sales across different categories, locations, and customer segments. It highlights key performance indicators and purchasing behaviors to help optimize sales strategies.
+
 
 ## 🔍 Key Features
 - **Real-time insights** into hiring trends
@@ -11,116 +12,47 @@ This Power BI dashboard provides a comprehensive analysis of the job market in E
 
 ---
 
-## 📊 Page 1: Job Market Overview
+### : Sales Overview
 ### **Key Insights:**
-- **Total Job Postings:** 217
-- **Top Hiring City:** New Cairo
-- **Top Hiring Company:** Confidential
-- **Avg Jobs per Month:** 72
+- **Total Sales:** 142.83 K
+- **Total Quantity Sold:** 538 Unit
+- **Average Purchase Value:** 1.43 K
 
 ### **Visualizations:**
-- **Job Posting Trends** (Line Chart)
-  - Shows job postings from January to March 2025.
-  - **DAX Title:** `"📈 Job Posting Trends (Jan - Mar 2025)"`
- 
-- **Top Hiring Companies** (Bar Chart)
-  - Highlights the companies with the highest job postings.
-  - **DAX Measure:** `TopHiringCompanies`
+- **Product Category Filter** (Slicer)
+  - Allows dynamic filtering by product categories (Beauty, Books, Clothing, Electronics, Home Decor).
 
+- **Total Quantity Sold by Product Category** (Column Chart)
+  - Displays the quantity of items sold for each product category.
 
-- **Job Distribution by Cities** (Map)
-  - Displays hiring activity across different cities.
-  - **DAX Title:** `"📍 Job Openings by Location"`
+- **Total Sales by Product Category** (Bar Chart)
+  - Highlights the total revenue generated per category.
 
----
+- **Total Sales by Location** (Tree Map)
+  - Visualizes total sales across different cities (New York, Houston, Chicago, Online, Los Angeles).
 
-## 📊 Page 2: Job Role Analysis
-### **Key Insights:**
-- **Most Common Job Title:** Data Analyst
-- **Most Requested Skill:** AI
-- **Highest Median Salary:** 142K EGP
+- **Total Sales by Age Segment** (Column Chart)
+  - Breaks down sales across age groups (Middle aged, Elderly, Youth).
 
-### **Visualizations:**
-- **Top 10 In-Demand Job Titles** (Bar Chart)
-  - Highlights the most frequently posted job titles.
-  - **DAX Measure:** `Most_Common_Job_Title`
-
-- **Skills Analysis** (Word Cloud)
-  - Extracts frequently mentioned skills from job descriptions.
-  - **DAX Measure:** `Extracted_Skills`
-
-- **Job Duration Analysis** (Gauge Chart)
-  - Measures the average time job listings stay open.
-  - **DAX Measure:** `Job_Open_Duration`
-
----
-
-## 📊 Page 3: Company Insights
-### **Key Insights:**
-- **Longest Job Openings:** 29 Days
-- **Most Stable Location:** New Cairo
-- **Top Stable Company:** Confidential
-- **Average Salary:** 18.53K EGP
-
-### **Visualizations:**
-- **Hiring Trends for Selected Companies** (Stacked Column Chart)
-  - Shows hiring trends over time for key companies.
-  - **DAX Measure:** `HiringTrends_Companies`
-
-- **Job Stability by Location** (Column Chart)
-  - Displays hiring consistency across different locations.
-  - **DAX Measure:** `Job_Stability_Score`
-
-- **Hiring Speed Distribution** (Donut Chart)
-  - Categorizes job postings based on hiring speed.
-  - **DAX Title:** `"⏳ Hiring Speed Categories"`
-  - **Conditional Formatting:**
-    - 🔴 Urgent Hiring (<10 Days)
-    - 🟡 Moderate Hiring (10-30 Days)
-    - 🟢 Slow Hiring (>30 Days)
-
----
-
-## 📌 Tooltip Pages
-### **Advanced Tooltips for Contextual Insights**
-- **Hiring Demand:** Shows top 3 job titles for selected city.
-- **Company Insights:** Displays hiring trends for a selected company.
-- **Job Stability:** Highlights locations with the highest job consistency.
+- **Payment Method Distribution** (Donut Chart)
+  - Shows percentage breakdown of payment methods used:
+    - PayPal (30%)
+    - Cash (27%)
+    - Credit Card (25%)
+    - Debit Card (18%)
 
 ---
 
 ## 🎨 **Dashboard Design & Formatting**
 - **Color Palette:**
-  - `#0511F2` (Primary)
-  - `#0460D9` (Accent)
-  - `#0583F2` (Secondary)
-  - `#0468BF` (Highlights)
-  - `#0D0D0D` (Background)
-- **Conditional Formatting Applied:**
-  - Job Growth Rate
-  - Hiring Speed
-  - Salary Comparisons
+  - Light blue background with shades of blue and purple for charts.
+- **Dynamic Filtering:**
+  - Enabled for Product Category.
+- **KPI Cards:**
+  - Highlight key figures (Sales, Quantity, Average Purchase).
 
 ---
 
-## 📂 Repository Structure
-```
-📂 Job-Market-Analytics-Dashboard
-│-- 📁 data
-│   │-- wuzzuf_jobs_cleaned.csv
-│   │-- salaries_table.csv
-│-- 📁 report
-│   │-- wuzzuf_jobs_dashboard.pbix
-│-- 📁 images
-│   │-- page1_overview.png
-│   │-- page2_roles.png
-│   │-- page3_company.png
-│   │-- details_page.png
-
-│-- README.md
-```
-
----
 
 ## 🚀 How to Use
 1. **Clone the repository**: `git clone https://github.com/Sohila-Khaled-Abbas/Wuzzuf-Job-Market-Analysis.git`
