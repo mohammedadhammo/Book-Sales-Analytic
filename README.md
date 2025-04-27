@@ -55,7 +55,7 @@ This Power BI dashboard provides an in-depth analysis of book sales across diffe
 
 
 ## 🚀 How to Use
-1. **Clone the repository**: `git clone https://github.com/mohammedadhammo/Project-1.git`
+1. **Clone the repository**: `git clone https://github.com/mohammedadhammo/Book-Sales-Analytic.git`
 2. **Open `Book-Salse-dashboard.pbix`** in Power BI.
 3. **Customize filters and parameters** to explore different insights.
 
