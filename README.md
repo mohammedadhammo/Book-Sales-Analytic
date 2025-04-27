@@ -55,10 +55,9 @@ This Power BI dashboard provides an in-depth analysis of book sales across diffe
 
 
 ## 🚀 How to Use
-1. **Clone the repository**: `git clone https://github.com/Sohila-Khaled-Abbas/Wuzzuf-Job-Market-Analysis.git`
-2. **Open `wuzzuf_jobs_dashboard.pbix`** in Power BI.
+1. **Clone the repository**: `git clone https://github.com/mohammedadhammo/Project-1.git`
+2. **Open `Book-Salse-dashboard.pbix`** in Power BI.
 3. **Customize filters and parameters** to explore different insights.
-4. **Use tooltip pages** for in-depth contextual analysis.
 
 ---
 
